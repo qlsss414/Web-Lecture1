@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_style.css">
+</head>
+<body>
+
+    <div class="board">
+        <div class="header">
+            <h1>MY PROFILE</h1>
+            <p>Web Programming Practice</p>
+        </div>
+
+        <div class="content">
+            <div class="profile">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.dqrpPufNn-xCn_LGdreceQHaFh?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="프로필" class="profile-img">
+                <div class="profile-info">
+                    <h2>남진우</h2>
+                    <p>전공: 컴퓨터소프트웨어전공</p>
+                    <p>관심분야: Web / AI / XR</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">관심 기술</h3>
+                <div class="tags">
+                    <span class="tag html">HTML</span>
+                    <span class="tag css">CSS</span>
+                    <span class="tag js">JavaScript</span>
+                    <span class="tag git">Git</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">자기소개</h3>
+                <div class="intro-text">
+                    <p>웹 프로그래밍을 공부하고 있습니다. HTML과 CSS를 사용하여 웹페이지의 구조와 디자인을 구현하는 방법을 학습하고 있습니다. 다양한 CSS 속성과 선택자를 사용하여 웹페이지의 디자인을 자유롭게 변경할 수 있습니다.</p>
+                    <p>앞으로 JavaScript와 React까지 학습하여 사용자와 상호작용할 수 있는 다양한 웹 서비스를 개발하는 것이 목표입니다.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">문의하기</h3>
+                <form action="#" method="post">
+                    <div class="box1">
+                        <label for="name">이름</label>
+                        <input type="text" id="name" class="input-name" placeholder="이름을 입력하세요">
+                    </div>
+                    <div class="box1">
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" class="input-email" placeholder="이메일을 입력하세요">
+                    </div>
+                    <button type="button" class="btn-submit">문의하기</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="box">
+            2026 Web Programming Practice
+        </div>
+    </div>
+
+</body>
+</html>
